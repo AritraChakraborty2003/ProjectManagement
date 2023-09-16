@@ -1,0 +1,71 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.lgn{
+    margin-top: 5vmin; background-color: white; color: black; padding: 2vmin; margin-left: 7vmin; font-size: 3vmin; border-radius: 2.5vmin;
+}
+.lgn:hover{
+    border: 1px solid white;
+    background: red;
+    color: white;
+}
+.border{
+    
+    width: 85vmin;
+    padding-bottom: 15vmin;
+ 
+}
+.mainBar{
+    display: flex;
+    justify-content: center;
+    background-image: linear-gradient(to bottom right,rgb(7, 84, 184),rgb(0, 0, 0));
+    flex-wrap: wrap;
+}
+.txt{
+    font-size: 3vmin;
+    letter-spacing: 0.5vmin;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+
+}
+.navbar{
+
+    height:8vmin;
+    display: grid;
+    grid-template-rows: 1fr;
+    grid-template-columns:  0.75fr 0.5fr 1fr;
+}
+.box{
+    height: 80vmin;
+}
+
+.header{
+    display: flex;
+    flex-direction: column;
+}
+@media(max-width:1080px){
+    .map{
+        display: none;
+    }
+}
+ul li{
+   padding-top: 1vmin;
+}
+.mainPartContainer{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+.footer{
+    display: grid;
+    grid-template-rows: 1fr;
+    padding-bottom: 5vmin;
+    grid-template-columns: 1fr 1fr;
+    background:linear-gradient(to bottom left,rgb(15, 15, 122),black);
+    height: 45vmin;
+}
